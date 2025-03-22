@@ -1,9 +1,4 @@
-/* Ajustes para dispositivos móviles */
-@media (max-width: 768px) {
-    .mapa-responsive {
-        height: 300px; /* Altura reducida para móviles */
-    }
-}
+
 
 body {
     font-family: Arial, sans-serif;
