@@ -5,13 +5,6 @@ body {
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
-
-    background-image: url('images/buho.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30%;
-    background-attachment: fixed;
-    opacity: 0.2;
 }
 
 header {
