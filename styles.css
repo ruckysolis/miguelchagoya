@@ -151,6 +151,14 @@ h2 {
     right: 0;
 }
 
+.carousel-slide:first-child {
+    padding-bottom: 60px; /* Ajusta el padding inferior para dar más espacio */
+}
+
+.carousel-slide:first-child p {
+    font-size: 14px; /* Ajusta el tamaño de la fuente si es necesario */
+}
+
 #contacto p {
     font-size: 18px;
     margin: 10px 0;
