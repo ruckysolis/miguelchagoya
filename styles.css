@@ -111,15 +111,16 @@ h2 {
 
 .carousel-container {
     position: relative;
-    width: 80%; /* Ajusta el ancho según tus necesidades */
+    width: 80%;
     margin: 20px auto;
     overflow: hidden;
+    padding: 0 40px; /* Añade padding a los lados */
 }
 
 .carousel-slide {
     display: none;
     text-align: center;
-    padding: 20px;
+    padding: 40px; /* Aumenta el padding */
 }
 
 .carousel-slide.active {
@@ -135,6 +136,11 @@ h2 {
     padding: 10px 15px;
     font-size: 20px;
     cursor: pointer;
+    margin: 0 10px; /* Añade márgenes a los lados */
+}
+
+.carousel-slide p {
+    font-size: 14px; /* Reduce el tamaño de la fuente */
 }
 
 #prevBtn {
@@ -194,3 +200,21 @@ footer {
     position: relative;
     bottom: 0;
 } 
+
+@media (max-width: 600px) {
+    .carousel-container {
+        padding: 0 20px; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    .carousel-slide {
+        padding: 20px; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    .carousel-slide p {
+        font-size: 12px; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+    }
+
+    #prevBtn, #nextBtn {
+        margin: 0 5px; /* Reduce los márgenes en pantallas pequeñas */
+    }
+}
