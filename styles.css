@@ -109,6 +109,42 @@ h2 {
     border: 3px solid #1abc9c;
 }
 
+.carousel-container {
+    position: relative;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+#prevBtn, #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
+
 #contacto p {
     font-size: 18px;
     margin: 10px 0;
